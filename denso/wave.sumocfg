@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on qui 24 set 2020 15:29:23 -03 by Eclipse SUMO GUI Version v1_5_0+0464-744bef2e7c
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/paulo/Documentos/mestrado/pesquisa/cenario-5km/highway-br116.net.xml"/>
+        <route-files value="/home/paulo/Documentos/mestrado/pesquisa/cenario-5km/wave/denso/h.rou.xml"/>
+    </input>
+
+</configuration>

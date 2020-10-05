@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-09-24 15:00:48.520531 by randomTrips.py v1_5_0+0464-744bef2e7c
+  options: -n highway-br116.net.xml <doubleminus>trip-attributes=departLane="best" departSpeed="max" departPos="random" -r br116.rou.xml -b 0 -e 10 -p 0.2
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="372634265#9" to="733263416" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="1" depart="0.20" from="gneE34" to="378235159#6" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="2" depart="0.40" from="608991522#7" to="gneE43" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="3" depart="0.60" from="378235159#8" to="gneE49" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="4" depart="0.80" from="gneE28" to="372634263#1" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="5" depart="1.00" from="378235159#2" to="372634267" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="6" depart="1.20" from="gneE47" to="gneE35" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="7" depart="1.40" from="gneE35" to="gneE35" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="8" depart="1.60" from="gneE50" to="372634263#5" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="9" depart="1.80" from="372634263#7" to="372634263#8" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="10" depart="2.00" from="608991522#9" to="372634265#8" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="11" depart="2.20" from="372634265#7" to="608991522#5" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="12" depart="2.40" from="378235159#8" to="378235159#10-AddedOnRampEdge" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="13" depart="2.60" from="gneE48" to="gneE30" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="14" depart="2.80" from="gneE18" to="608991522#6" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="15" depart="3.00" from="372634264" to="608991522#2" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="16" depart="3.20" from="372634263#5-AddedOnRampEdge" to="372634263#6" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="17" depart="3.40" from="372634265#3-AddedOnRampEdge" to="gneE40" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="18" depart="3.60" from="gneE49" to="372634263#5" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="19" depart="3.80" from="378235159#3" to="372634265#2" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="20" depart="4.00" from="378235159#7" to="372634263#1" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="21" depart="4.20" from="372634265#3" to="372634263#5-AddedOffRampEdge" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="22" depart="4.40" from="372634261" to="372634267" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="23" depart="4.60" from="372634263#5-AddedOnRampEdge" to="372634263#5" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="24" depart="4.80" from="gneE39" to="732746860" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="25" depart="5.00" from="372634263#3" to="gneE45" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="26" depart="5.20" from="372634265#9" to="gneE18" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="27" depart="5.40" from="608991522#8" to="372634265#3" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="28" depart="5.60" from="372634265#0" to="gneE51" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="29" depart="5.80" from="608991522#2-AddedOffRampEdge" to="372634263#5-AddedOnRampEdge" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="30" depart="6.00" from="gneE43" to="732746860" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="31" depart="6.20" from="372634265#7" to="608991522#5" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="32" depart="6.40" from="372634263#6" to="378235159#10" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="33" depart="6.60" from="372634266" to="gneE18" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="34" depart="6.80" from="372634263#2" to="gneE48" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="35" depart="7.00" from="gneE43" to="372634265#7" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="36" depart="7.20" from="372634264" to="gneE43" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="37" depart="7.40" from="372634263#5" to="372634265#2" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="38" depart="7.60" from="372634263#0" to="378235159#4" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="39" depart="7.80" from="372634263#5-AddedOffRampEdge" to="378235159#5" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="40" depart="8.00" from="372634265#1" to="372634263#0" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="41" depart="8.20" from="372634263#6" to="372634263#3" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="42" depart="8.40" from="372634265#9" to="372634263#0" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="43" depart="8.60" from="608991522#8" to="733263416" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="44" depart="8.80" from="372634265#6" to="372634265#6" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="45" depart="9.00" from="372634263#0" to="372634265#3" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="46" depart="9.20" from="378235159#0" to="372634263#7" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="47" depart="9.40" from="733263416" to="608991522#9" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="48" depart="9.60" from="372634265#8" to="378235159#8" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="49" depart="9.80" from="608991522#2-AddedOffRampEdge" to="372634263#0" departLane="best" departSpeed="max" departPos="random"/>
+    <trip id="50" depart="10.00" from="372634267" to="608991522#5-AddedOffRampEdge" departLane="best" departSpeed="max" departPos="random"/>
+</routes>

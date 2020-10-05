@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on qui 24 set 2020 15:01:40 -03 by Eclipse SUMO netedit Version v1_5_0+0464-744bef2e7c
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/paulo/Documentos/mestrado/pesquisa/cenario-5km/highway-br116.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/paulo/Documentos/mestrado/pesquisa/cenario-5km/highway-br116.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="/home/paulo/Documentos/mestrado/pesquisa/cenario-5km/wave/intermediario/h.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 754831550 733263416" color="yellow"/>
+    </vehicle>
+    <vehicle id="1" depart="0.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6" color="yellow"/>
+    </vehicle>
+    <vehicle id="2" depart="0.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43" color="yellow"/>
+    </vehicle>
+    <vehicle id="3" depart="0.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48 gneE49" color="yellow"/>
+    </vehicle>
+    <vehicle id="4" depart="0.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1" color="yellow"/>
+    </vehicle>
+    <vehicle id="5" depart="1.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 372634267" color="yellow"/>
+    </vehicle>
+    <vehicle id="6" depart="1.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE47 gneE46 gneE48 gneE49 gneE50 gneE51 gneE52 gneE17 gneE18 gneE19 608991522#2 608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35" color="yellow"/>
+    </vehicle>
+    <vehicle id="7" depart="1.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE35" color="yellow"/>
+    </vehicle>
+    <vehicle id="8" depart="1.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE50 gneE51 gneE52 gneE17 gneE18 gneE19 608991522#2 608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5" color="yellow"/>
+    </vehicle>
+    <vehicle id="9" depart="1.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#7 372634263#8" color="yellow"/>
+    </vehicle>
+    <vehicle id="10" depart="2.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8" color="yellow"/>
+    </vehicle>
+    <vehicle id="11" depart="2.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5" color="yellow"/>
+    </vehicle>
+    <vehicle id="12" depart="2.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="378235159#8 378235159#9 378235159#10-AddedOnRampEdge" color="yellow"/>
+    </vehicle>
+    <vehicle id="13" depart="2.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE48 gneE49 gneE50 gneE51 gneE52 gneE17 gneE18 gneE19 608991522#2 608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30" color="yellow"/>
+    </vehicle>
+    <vehicle id="14" depart="2.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE18 gneE19 608991522#2 608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6" color="yellow"/>
+    </vehicle>
+    <vehicle id="15" depart="3.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48 gneE49 gneE50 gneE51 gneE52 gneE17 gneE18 gneE19 608991522#2" color="yellow"/>
+    </vehicle>
+    <vehicle id="16" depart="3.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6" color="yellow"/>
+    </vehicle>
+    <vehicle id="17" depart="3.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40" color="yellow"/>
+    </vehicle>
+    <vehicle id="18" depart="3.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE49 gneE50 gneE51 gneE52 gneE17 gneE18 gneE19 608991522#2 608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5" color="yellow"/>
+    </vehicle>
+    <vehicle id="19" depart="3.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2" color="yellow"/>
+    </vehicle>
+    <vehicle id="20" depart="4.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1" color="yellow"/>
+    </vehicle>
+    <vehicle id="21" depart="4.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge" color="yellow"/>
+    </vehicle>
+    <vehicle id="22" depart="4.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 372634267" color="yellow"/>
+    </vehicle>
+    <vehicle id="23" depart="4.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#5-AddedOnRampEdge 372634263#5" color="yellow"/>
+    </vehicle>
+    <vehicle id="24" depart="4.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 732746860" color="yellow"/>
+    </vehicle>
+    <vehicle id="25" depart="5.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45" color="yellow"/>
+    </vehicle>
+    <vehicle id="26" depart="5.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48 gneE49 gneE50 gneE51 gneE52 gneE17 gneE18" color="yellow"/>
+    </vehicle>
+    <vehicle id="27" depart="5.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3" color="yellow"/>
+    </vehicle>
+    <vehicle id="28" depart="5.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48 gneE49 gneE50 gneE51" color="yellow"/>
+    </vehicle>
+    <vehicle id="29" depart="5.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge" color="yellow"/>
+    </vehicle>
+    <vehicle id="30" depart="6.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 732746860" color="yellow"/>
+    </vehicle>
+    <vehicle id="31" depart="6.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5" color="yellow"/>
+    </vehicle>
+    <vehicle id="32" depart="6.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48 gneE49 gneE50 gneE51 gneE52 gneE17 gneE18 gneE19 608991522#2 608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10" color="yellow"/>
+    </vehicle>
+    <vehicle id="33" depart="6.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48 gneE49 gneE50 gneE51 gneE52 gneE17 gneE18" color="yellow"/>
+    </vehicle>
+    <vehicle id="34" depart="6.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48" color="yellow"/>
+    </vehicle>
+    <vehicle id="35" depart="7.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 372634267 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7" color="yellow"/>
+    </vehicle>
+    <vehicle id="36" depart="7.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43" color="yellow"/>
+    </vehicle>
+    <vehicle id="37" depart="7.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2" color="yellow"/>
+    </vehicle>
+    <vehicle id="38" depart="7.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4" color="yellow"/>
+    </vehicle>
+    <vehicle id="39" depart="7.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3 gneE1 372634265#6-AddedOnRampEdge 372634265#6 372634265#7 372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5" color="yellow"/>
+    </vehicle>
+    <vehicle id="40" depart="8.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0" color="yellow"/>
+    </vehicle>
+    <vehicle id="41" depart="8.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#6 372634263#7-AddedOnRampEdge 372634263#7 372634263#8 gneE45 gneE47 gneE46 gneE48 gneE49 gneE50 gneE51 gneE52 gneE17 gneE18 gneE19 608991522#2 608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3" color="yellow"/>
+    </vehicle>
+    <vehicle id="42" depart="8.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0" color="yellow"/>
+    </vehicle>
+    <vehicle id="43" depart="8.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 754831550 733263416" color="yellow"/>
+    </vehicle>
+    <vehicle id="44" depart="8.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#6" color="yellow"/>
+    </vehicle>
+    <vehicle id="45" depart="9.00" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634265#2 372634265#3-AddedOnRampEdge 372634265#3" color="yellow"/>
+    </vehicle>
+    <vehicle id="46" depart="9.20" departLane="best" departPos="random" departSpeed="max">
+        <route edges="378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8 378235159#9 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0 372634263#1 372634263#2 372634263#3 372634263#4 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634263#6 372634263#7-AddedOnRampEdge 372634263#7" color="yellow"/>
+    </vehicle>
+    <vehicle id="47" depart="9.40" departLane="best" departPos="random" departSpeed="max">
+        <route edges="733263416 754831548 372634263#5-AddedOnRampEdge 372634263#5 372634263#5-AddedOffRampEdge 372634261 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9" color="yellow"/>
+    </vehicle>
+    <vehicle id="48" depart="9.60" departLane="best" departPos="random" departSpeed="max">
+        <route edges="372634265#8 372634265#9 gneE28 gneE40 gneE29 gneE41 gneE30 gneE43 gneE39 gneE34 gneE38 gneE35 gneE42 378235159#0 378235159#1 378235159#2 378235159#3 378235159#4 378235159#4-AddedOffRampEdge 378235159#5 378235159#6 378235159#7 378235159#8" color="yellow"/>
+    </vehicle>
+    <vehicle id="49" depart="9.80" departLane="best" departPos="random" departSpeed="max">
+        <route edges="608991522#2-AddedOffRampEdge 608991522#3 608991522#4 608991522#5 608991522#5-AddedOffRampEdge 608991522#6 608991522#7 608991522#8 608991522#9 372634266 372634265#0 372634265#1 372634268 378235159#10-AddedOnRampEdge 378235159#10 372634264 372634263#0" color="yellow"/>
+    </vehicle>
+</routes>
